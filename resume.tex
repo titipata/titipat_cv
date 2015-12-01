@@ -1,0 +1,58 @@
+\documentclass[margin,line]{res}
+
+\newcommand*{\sectiondir}{sections/}
+\usepackage{import}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage[shortlabels]{enumitem}
+\usepackage[usenames,dvipsnames]{color}
+
+
+% margin
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+\topmargin=0in
+\topskip=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{\Large Titipat Achakulvisut } % \hfill {\today}
+
+\begin{resume}
+
+\import{\sectiondir}{personal.tex}
+\import{\sectiondir}{interests.tex}
+\import{\sectiondir}{education.tex}
+\import{\sectiondir}{awards.tex}
+\import{\sectiondir}{research.tex}
+\import{\sectiondir}{talk.tex}
+\import{\sectiondir}{journals.tex}
+\import{\sectiondir}{publications.tex}
+\import{\sectiondir}{patents.tex}
+\import{\sectiondir}{media.tex}
+\import{\sectiondir}{projects.tex}
+\import{\sectiondir}{membership.tex}
+\import{\sectiondir}{extracurricular.tex}
+\import{\sectiondir}{skills.tex}
+
+\end{resume}
+\end{document}
