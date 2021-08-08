@@ -3,8 +3,9 @@
 LaTeX files for Curriculum Vitae with [Font Awesome](https://fortawesome.github.io/Font-Awesome/).
 This repository already includes font awesome in the folder `fonts/FontAwesome.otf` and  Thai  Sarabun fonts in `th`.
 
-- `main` for English CV
-- `th` for Thai CV
+- `en` for Titipat's English CV
+- `th` for Titipat's Thai CV
+- `pdf` for compiled PDF files
 
 ## Walk through using ShareLaTeX
 
