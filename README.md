@@ -1,9 +1,10 @@
 # Titipat Curriculum Vitae
 
+LaTeX files for Curriculum Vitae with [Font Awesome](https://fortawesome.github.io/Font-Awesome/).
+This repository already includes font awesome in the folder `fonts/FontAwesome.otf` and  Thai  Sarabun fonts in `th`.
 
-LaTeX for Curriculum Vitae with [Font Awesome](https://fortawesome.github.io/Font-Awesome/).
-This repository already includes font awesome in the folder `fonts/FontAwesome.otf`
-
+- `main` for English CV
+- `th` for Thai CV
 
 ## Walk through using ShareLaTeX
 
@@ -16,12 +17,10 @@ going to `Menu > Compiler > XeLaTeX`
 See more fonts available in `fontawesome.sty` (thanks [latex-fontawesome](https://github.com/furl/latex-fontawesome)!)
 - Compile and download to get your own curriculum vitae
 
-
 ## References
 
 - [latex-fontawesome](https://github.com/furl/latex-fontawesome)
 - [Awesome-CV](https://github.com/posquit0/Awesome-CV)
-
 
 ## Members
 
