@@ -4,14 +4,14 @@ LaTeX files for Curriculum Vitae features [Font Awesome](https://fortawesome.git
 The folders are in the following structures:
 
 - `en/` for Titipat's English CV
-- `th` for Titipat's Thai CV
+- `th/` for Titipat's Thai CV
 - `pdf/` for compiled PDF files
 
 ## Using this with OverLeaf
 
 - Fork this repository
 - Select `New Project`, then choose `Import from Github`, and select repository name (in this case `titipat_cv`)
-- Select `Menu` > `XeLaTex` since we need XeLaTex to compile
+- Now when you are in the project, select `Menu` (Top left corner) and change compiler to `XeLaTex`
 - Select `resume.tex` in `en` (for English CV) or `resume.tex` in `th` (for Thai CV) then run `Compile`
 
 ## References
