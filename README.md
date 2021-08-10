@@ -14,6 +14,11 @@ The folders are in the following structures:
 - Now when you are in the project, select `Menu` (Top left corner) and change compiler to `XeLaTex`
 - Select `resume.tex` in `en` (for English CV) or `resume.tex` in `th` (for Thai CV) then run `Compile`
 
+## Syncing Overleaf with Github
+
+- Select `Menu`
+- In `Sync`, click on Github then choose pull from Github or Push Overleaf changes to Github
+
 ## References
 
 - [latex-fontawesome](https://github.com/furl/latex-fontawesome)
