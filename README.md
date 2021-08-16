@@ -14,6 +14,9 @@ The folders are in the following structures:
 - Now when you are in the project, select `Menu` (Top left corner) and change compiler to `XeLaTex`
 - Select `resume.tex` in `en` (for English CV) or `resume.tex` in `th` (for Thai CV) then run `Compile`
 
+**Note**: You may experience a cursor misalignment for Thai text on Overleaf editor.
+To solve this issue, select `Menu` (Top left corner) > change Font Family to `Monaco`.
+
 ## Syncing Overleaf with Github
 
 - Select `Menu`
